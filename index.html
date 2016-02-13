@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8"/>
+	<title></title>
+</head>
+<body>
+	<style type="text/css">
+		body{
+			background:#be9b7b;
+			color:#4b3832;
+			text-align:center;
+			font-family: helvetica;
+		}
+		canvas{
+			background: white; 
+		}
+	</style>
+	<script type="text/javascript" src="ahorcado.js"></script>
+	<h1>Juguemos al Ahorcado!</h1>
+	<p>Adivina letra a letra la palabra secreta</p>
+	<div>
+		<h2 id="pista"></h2>
+		<h3 id="pistaAdicional"></h3>
+		
+	</div>
+	<canvas id="canvas"></canvas>
+	<div>
+		<input type="text" id="cajaTexto" placeholder="Ingrese una letra"></input>
+		<input type="button" id="boton" value="Consultar"></input>	
+	</div>
+	<script type="text/javascript">
+		inicio(); 		
+	</script>
+</body>
+</html>
